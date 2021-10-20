@@ -6,7 +6,11 @@ To understand the process of adding and using a syscall in Xv6.
 
 ### Objective
 
-Add a syscall to Xv6 that prints the little lad dance to the console when called. Each step has an associated question in Gradescope based on the file you're working in, so make sure to follow along.
+Add a syscall to Xv6 that prints the little lad dance to the console when called. 
+
+### Instructions
+
+Most steps have an associated question in Gradescope, so make sure to follow along. The question will be in reference to the same file the step has you editing.
 
 ### Step 1
 
@@ -14,7 +18,6 @@ Add the following line to the end of 'syscall.h':
 ```
 #define SYS_littlelad 22
 ```
-
 
 ### Step 2
 
